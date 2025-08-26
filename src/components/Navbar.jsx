@@ -16,11 +16,10 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link to="/">
-              <img src={logoImg} alt="Logo" className="h-12 w-auto" />
+              <img src={logoImg} alt="Logo" className="h-14 w-auto" />
             </Link>
           </div>
 
-          {/* Desktop Navigation Links (Hidden on Mobile) */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-center space-x-4">
               <Link
@@ -41,20 +40,19 @@ const Navbar = () => {
                 to="/cijena"
                 className="relative group text-black px-3 py-2 text-sm font-medium"
               >
-                Cijena
+                Pricing
                 <span className="absolute left-0 bottom-0 h-0.5 bg-black w-0 group-hover:w-full transition-all duration-300"></span>
               </Link>
               <Link
                 to="/kontakt"
                 className="relative group text-black px-3 py-2 text-sm font-medium"
               >
-                Kontakt
+                Contact
                 <span className="absolute left-0 bottom-0 h-0.5 bg-black w-0 group-hover:w-full transition-all duration-300"></span>
               </Link>
             </div>
           </div>
 
-          {/* Mobile Menu Button */}
           <div className="md:hidden">
             <button
               onClick={toggleMenu}
@@ -94,7 +92,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Menu (Dropdown) */}
       {isOpen && (
         <div className="md:hidden bg-white bg-opacity-90 backdrop-blur-sm">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">

@@ -8,11 +8,11 @@ export default function Portfolio() {
     <div className="container mx-auto py-12">
       <div className="text-center mb-12">
         <h2 className="text-red-800 text-3xl md:text-4xl lg:text-5xl mb-4">
-          Umjetnost ljubavi u svakom kadru
+          The Art of Love in Every Frame
         </h2>
         <p className="text-gray-700 text-lg md:text-xl max-w-2xl mx-auto italic">
-          Kolekcija pažljivo odabranih trenutaka, gdje se emocija i estetika
-          susreću u bezvremenskoj eleganciji.
+          A collection of carefully chosen moments, where emotion and aesthetics
+          meet in timeless elegance.
         </p>
       </div>
 
@@ -23,7 +23,7 @@ export default function Portfolio() {
               src={src}
               alt={`Wedding photo ${index + 1}`}
               className="w-full h-auto"
-              loading="lazy"
+              rel="preload"
             />
           </div>
         ))}

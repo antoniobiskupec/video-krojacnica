@@ -3,13 +3,13 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Portfolio from "./components/Portfolio";
 import Cijena from "./components/Cijena";
-import Kontakt from "./components/Kontakt";
+import Kontakt from "./components/Contact";
 import UnderConstruction from "./components/UnderConstruction";
 import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

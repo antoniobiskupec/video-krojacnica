@@ -38,7 +38,7 @@ export default function Footer() {
         <div>
           <div className="flex space-x-4">
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/krojacnica_foto_i_video/?hl=en"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
@@ -55,7 +55,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://facebook.com"
+              href="https://web.facebook.com/videokrojacnica/?locale=hr_HR&_rdc=1&_rdr#"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook"
@@ -76,7 +76,7 @@ export default function Footer() {
 
       {/* Copyright */}
       <div className="border-t border-gray-200 mt-6 pt-4 pb-4 text-center text-xs text-gray-500">
-        &copy; {new Date().getFullYear()} KROJAČNICA. Sva prava pridržana.
+        &copy; {new Date().getFullYear()} VIDEO KROJAČNICA. All rights reserved.
       </div>
     </footer>
   );

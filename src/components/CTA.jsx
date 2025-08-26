@@ -3,7 +3,7 @@ import image2 from "../images/hero/image2.jpg";
 export default function Example() {
   return (
     <div className="relative bg-white pt-30">
-      <div className="relative h-80 overflow-hidden  md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2 rounded-md">
+      <div className="relative h-80 overflow-hidden  md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2">
         <img
           alt="branko"
           src={image2}

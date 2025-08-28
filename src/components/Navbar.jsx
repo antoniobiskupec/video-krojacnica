@@ -37,14 +37,14 @@ const Navbar = () => {
                 <span className="absolute left-0 bottom-0 h-0.5 bg-black w-0 group-hover:w-full transition-all duration-300"></span>
               </Link>
               <Link
-                to="/cijena"
+                to="/pricing"
                 className="relative group text-black px-3 py-2 text-sm font-medium"
               >
                 Pricing
                 <span className="absolute left-0 bottom-0 h-0.5 bg-black w-0 group-hover:w-full transition-all duration-300"></span>
               </Link>
               <Link
-                to="/kontakt"
+                to="/contact"
                 className="relative group text-black px-3 py-2 text-sm font-medium"
               >
                 Contact
@@ -93,7 +93,7 @@ const Navbar = () => {
       </div>
 
       {isOpen && (
-        <div className="md:hidden bg-white bg-opacity-90 backdrop-blur-sm">
+        <div className="md:hidden bg-transparent backdrop-blur-xl ">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <Link
               to="/portfolio"
@@ -110,14 +110,14 @@ const Navbar = () => {
               Promo
             </Link>
             <Link
-              to="/cijena"
+              to="/pricing"
               className="block px-3 py-2 text-base font-medium text-black "
               onClick={toggleMenu}
             >
               Cijena
             </Link>
             <Link
-              to="/kontakt"
+              to="/contact"
               className="block px-3 py-2 text-base font-medium text-black "
               onClick={toggleMenu}
             >

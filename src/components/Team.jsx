@@ -4,7 +4,7 @@ import brankoImg from "../images/branko.jpg";
 const people = [
   {
     name: "Mario",
-    role: "Videographer, Photographer, The Boss",
+    role: "Videographer, Photographer, Gazda",
     imageUrl: marioImg,
     bio: "Newly married and a proud dad of a little boy, Mario still enjoys a good beer, barbecues with friends, and the occasional hike—though editing often turns into naps on the couch. With over 300 weddings filmed since age 17, he’s the team’s perfectionist, always chasing the perfect shot (and dreading bad color grades). Outside work, he loves books, rock albums, and family trips into nature.",
   },
@@ -16,7 +16,7 @@ const people = [
   },
 ];
 
-export default function Example() {
+export default function Team() {
   return (
     <div className="bg-white py-24 md:py-32 lg:py-40">
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-20 px-6 lg:px-8 xl:grid-cols-3">

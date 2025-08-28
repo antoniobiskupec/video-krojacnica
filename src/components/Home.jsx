@@ -1,5 +1,4 @@
 import loopVideo from "../videos/loop.mp4";
-
 import portfolioImg from "../images/portfolio.jpeg";
 import promoImg from "../images/promo.jpg";
 import { Link } from "react-router-dom";
@@ -7,6 +6,7 @@ import GoogleReviewsWidget from "google-reviews-widget";
 import Team from "../components/Team";
 import CTA from "./CTA.jsx";
 import Divider from "./Divider.jsx";
+import DividerFull from "./DividerFull.jsx";
 import Features from "./Features.jsx";
 
 export default function Main() {
@@ -32,7 +32,7 @@ export default function Main() {
               alt="Portfolio, bride doing makeup in a car"
               className="w-full h-full object-cover transition-transform duration-300 "
             />
-            <div className="absolute top-4 left-4 md:top-2  text-red-800 text-3xl md:text-4xl px-4 py-2 ">
+            <div className="absolute top-1 left-2 md:top-2  text-red-800 text-3xl md:text-4xl px-4 py-2 ">
               Portfolio
             </div>
           </button>
@@ -44,7 +44,7 @@ export default function Main() {
               alt="Promo with bottles of alcohol"
               className="w-full h-full object-cover transition-transform duration-300  grayscale-100"
             />
-            <div className="absolute top-4 right-4 md:top-2  text-red-800 text-3xl md:text-4xl px-4 py-2 ">
+            <div className="absolute top-1 right-2 md:top-2  text-red-800 text-3xl md:text-4xl px-4 py-2 ">
               Promo
             </div>
           </button>
@@ -54,6 +54,8 @@ export default function Main() {
       <CTA />
 
       <Features />
+
+      <DividerFull />
 
       <Team />
       <GoogleReviewsWidget instanceId="KidEAFYbqqG64Z3aPKko" />

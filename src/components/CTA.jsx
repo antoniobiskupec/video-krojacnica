@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import image2 from "../images/hero/image2.jpg";
 
 export default function Example() {
@@ -7,7 +8,7 @@ export default function Example() {
         <img
           alt="branko"
           src={image2}
-          className="size-full object-cover grayscale-100"
+          className="size-full object-cover grayscale-75"
         />
       </div>
       <div className="relative mx-auto max-w-7xl py-24 sm:py-32 lg:px-8 lg:py-40">
@@ -25,12 +26,11 @@ export default function Example() {
             into memories you’ll cherish forever.
           </p>
           <div className="mt-8">
-            <a
-              href="#"
-              className="inline-flex rounded-md bg-red-900 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-red-800 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-800"
-            >
-              Book a session
-            </a>
+            <Link to="/contact">
+              <a className="inline-flex bg-red-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-red-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-700">
+                Book a session
+              </a>
+            </Link>
           </div>
         </div>
       </div>

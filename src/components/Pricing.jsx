@@ -1,7 +1,7 @@
 import mladenciImg from "../images/mladenci.jpg";
 import { Link } from "react-router-dom";
 
-export default function Cijena() {
+export default function Pricing() {
   return (
     <div className="grid align-middle container mx-auto px-4 py-12 h-dvh">
       <div className="md:grid md:grid-cols-2 md:gap-8 md:items-center">
@@ -34,7 +34,7 @@ export default function Cijena() {
               1.850,00€
             </h3>
 
-            <Link to="/kontakt">
+            <Link to="/contact">
               <button className="mt-6 px-8 py-3 bg-red-800 text-white text-base  hover:bg-red-700 transition-colors duration-200 cursor-pointer">
                 Book your wedding session
               </button>
